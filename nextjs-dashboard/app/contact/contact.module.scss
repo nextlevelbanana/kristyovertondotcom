@@ -1,0 +1,17 @@
+.contactPage {
+    padding: 2rem;
+    padding-top: 0;
+
+    li {
+        list-style-type: none;
+        margin-bottom: .75rem;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        word-break: break-all;
+    }
+
+    @media screen and (min-width: 480px)  {
+        max-width: 67%;
+    }
+}

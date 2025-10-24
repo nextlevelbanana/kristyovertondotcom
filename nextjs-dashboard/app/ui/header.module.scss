@@ -1,0 +1,24 @@
+.header {
+    align-items: baseline;
+    border-bottom: 1px solid var(--light-accent);
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px var(--dark-accent);
+    letter-spacing: 0.08em;
+    width: calc(100% - 2rem);
+    background-color: var(--darkest);  
+  
+}
+
+
+.light {
+    font-size: 1rem;
+  font-weight: 100;
+  text-shadow: 0 0 3px var(--dark-accent), 0 0 10px var(--light-accent);
+}
+
+.headerLink {
+  color: var(--white);
+  text-decoration: none;
+}

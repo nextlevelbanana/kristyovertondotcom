@@ -1,0 +1,8 @@
+.artifactsPage {
+    padding: 2rem;
+    padding-top: 0;
+
+    @media screen and (min-width: 480px)  {
+        max-width: 67%;
+    }
+}

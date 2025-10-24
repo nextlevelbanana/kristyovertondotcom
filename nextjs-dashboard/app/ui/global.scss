@@ -1,0 +1,120 @@
+:root {
+  --darkest: #000;
+  --dark: #1c1c1c;
+  --white: #efefef;
+  --dark-accent: #5433be;
+  --light-accent: #ff67ae;  
+  --cyan: #0ce8e8;
+  font-size: 16px;
+}
+
+[data-theme="light"] {
+  --dark: #f9f9f9;
+  --darkest: #ffccff;
+  --white: #111;
+  --dark-accent: #5433be;
+  --light-accent: #ff67ae;  
+  --cyan: #a41b5b;
+}
+
+[data-theme="hotdog"] {
+  --darkest: #ffff00;
+  --dark: #ff0000;
+  --white: #111;
+  --dark-accent: #ffff00;
+  --light-accent: #fff;  
+  --cyan: #ff0000;
+}
+
+.fredoka {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:    "wdth" 100;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  max-width: 100%;
+}
+
+h1, .glowy {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px var(--dark-accent), 0 0 10px  var(--light-accent);
+}
+
+.glowy-blue {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-shadow: 0 0 5px var(--dark-accent), 0 0 10px  var(--cyan);
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+  font-family: "Fredoka", sans-serif;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  color: var(--white);
+  letter-spacing: 0.05em;
+  text-shadow: 0 0 5px var(--light-accent);
+  text-decoration: none;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+svg {
+  stroke: var(--light-accent);
+  fill: var(--light-accent);
+}
+
+a:focus, a:hover, a:active {
+  color: var(--light-accent);
+}
+
+h1, .glowy-blue-line {
+  border-bottom: 1px solid var(--cyan);
+  box-shadow: -3px 3px 3px var(--dark-accent);
+}
+
+h1 {
+  padding: 0.5rem;
+}
+
+h1, .big {
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+ li {
+        list-style-type: none;
+        margin-bottom: .75rem;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        word-break: break-all;
+    }
+
+@media screen and (min-width: 480px)  {
+    .big {
+        max-width: 67%;
+        margin-bottom: 3rem;
+    }
+}

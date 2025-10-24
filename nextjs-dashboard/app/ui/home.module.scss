@@ -1,0 +1,15 @@
+.main {
+    margin: 8rem 2rem 0.5rem;
+}
+
+.big {
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 480px)  {
+    .big {
+        max-width: 67%;
+        margin-bottom: 3rem;
+    }
+}
