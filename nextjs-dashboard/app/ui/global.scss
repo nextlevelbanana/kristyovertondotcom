@@ -109,12 +109,18 @@ h1, .big {
         display: flex;
         gap: 0.5rem;
         align-items: center;
-        word-break: break-all;
+        word-wrap: break-word;
     }
 
 @media screen and (min-width: 480px)  {
     .big {
         max-width: 67%;
         margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    h1 {
+      font-size: 2rem;
     }
 }

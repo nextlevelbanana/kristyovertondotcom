@@ -2,7 +2,7 @@ import styles from "./tools.module.scss";
 
 export default function Page() {
   return (<div className={styles.toolsPage}>
-  <h1 className="glowy big">Uses</h1>
+  <h1>Uses</h1>
   <p>(See <a href="https://uses.tech/">uses.tech</a> for everyone else's uses pages!)</p>
 
     <h2>Physical</h2>
